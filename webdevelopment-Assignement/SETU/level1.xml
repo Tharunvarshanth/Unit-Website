@@ -1,0 +1,29 @@
+<level>
+<course>
+<CourseCode>SENG 11213</CourseCode>
+<CourseTitle> Fundamentals of Computing</CourseTitle>
+<Type>C</Type>
+<Credits>3</Credits>
+</course>
+<course>
+<CourseCode>SENG 11232</CourseCode>
+<CourseTitle> Engineering Foundation</CourseTitle>
+<Type>C</Type>
+<Credits>2</Credits>
+</course>
+<course>
+<CourseCode>SENG 11213</CourseCode>
+<CourseTitle> Programming Concepts</CourseTitle>
+<Type>C</Type>
+<Credits>3</Credits>
+</course><course>
+<CourseCode>SENG 11243 </CourseCode>
+<CourseTitle> Statistics </CourseTitle>
+<Type>C</Type>
+<Credits>3</Credits>
+</course>
+
+
+
+
+</level>

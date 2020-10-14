@@ -1,0 +1,290 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  @media only screen and (min-width: 601px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  }
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;    
+    }}
+   
+*{
+padding:0;
+margin:0;
+overflow-x: hidden;
+} 
+.slide img{
+    width: 100%;
+}
+/* Dropdown menu bar page decoration    */
+
+.menubar{
+    background-color:brown;
+    text-align: center;
+    width:100%;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    width:100%;
+}
+.menubar ul li{
+    width:12%;
+    margin:10px;
+   margin-right:1% ;
+    margin-left:1%;
+    padding:4x;   
+}
+.menubar ul li a{
+    text-decoration:none;
+    color:white;  
+    font-size: 20px;  
+}
+
+ .menubar ul li a:hover{
+    background:#e64d00;
+    border-radius: 3px;
+}
+
+
+/* slide show image for HomePage.html  */
+#slider,.wrap,.slide-content{
+   width: 100%;   
+   overflow-y:hidden;
+   overflow-x: hidden;
+}
+.wrap{
+position: relative;
+
+}
+.wrap figure{
+    animation: 5s wrap infinite;
+}
+.slide-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+.slide-content span{
+    font-size:5rem;
+    color:black;
+    position: absolute;
+    top:300px ;
+}
+
+.arrow{
+    cursor: pointer;;
+    position: absolute;
+    top:150px;
+    margin-top:-50px;
+    width:0;
+    height:0;
+    border-style:solid ;
+}
+
+#arrow-left{
+    border-width:15px 20px 15px 0;
+    border-color:transparent #fff transparent transparent;
+    left:0;
+    margin-left: 30px;
+}
+#arrow-right{
+    border-width:15px 0px 15px 20px;
+    border-color:transparent transparent transparent white;
+    right:0;
+    margin-right: 30px;
+}
+
+/* Text content under slide show image for HomePage.html */
+.textbox{
+    font-size:18px;
+    border: 3px solid brown;
+    padding:20px;
+    margin-left: 20%;
+    margin-top:5%;
+    width:45%;
+
+}
+/* bottom  brown color box every page*/
+.bottombox{
+     margin-top: 100px;
+     background-color: #800000;
+     width: 100%;
+     height:25px;
+     padding:15px;
+     color:white
+}
+
+
+/* Staff details  for Staffs.html*/
+.staffbox{
+    width:50%;
+    border:none;
+    margin-top: 40px;
+    margin-left:150px ;
+    padding: 5px;
+    
+}
+.name{ 
+    text-align: left;
+    font-size:26px;
+    color:rgb(63, 4, 4) ;    
+}
+
+/* contact details for Contact.html */
+.addressbox{
+    margin-top:50px;
+    margin-left:15%;
+    padding:20px;
+}
+
+.contactform{
+    top:300px;
+    position:absolute;
+ 	right:20%;
+}
+.contactform input,textarea{
+    border-radius: 2px;
+    box-sizing:border-box;
+    background-color:ghostwhite;
+    box-shadow:2px 2px 2px 2px #800000; 
+    transition: width 2s,height 4s;
+}
+.contactform input:hover{
+    width:250px;
+    height:30px;
+}
+.contactbutton{
+    background-color: #800000;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/* about.html */
+.vissionbox{
+    border:3px  solid #800000;   
+    margin-top: 50px;
+    margin-left: 20%;  
+    padding :5px;
+    box-sizing:border-box;
+    box-shadow :2px 2px 2px 2px #800000;   
+    
+}
+
+.missionbox{
+    border:3px  solid #800000;
+ /*   width:500px;  */
+    margin-top: 50px;    
+    margin-left:15%;
+    padding :5px;
+    box-sizing:border-box;
+    box-shadow :2px 2px 2px 2px #800000; 
+}
+
+.notebox{
+    border:3px  solid #800000;
+    /*   width:800px;     */
+       margin-top:80px;
+       margin-left: 20%;
+       padding :5px;
+       box-sizing:border-box;
+       box-shadow :2px 2px 2px 2px #800000;  
+}
+/* Results.html page  */
+.formalign{
+   top:68%;
+    left:40%;
+    text-align: center;
+    font-size: 24px;
+    color: #800000;
+    position: absolute;
+}
+.formalign input{
+    font-size: 20px;
+}
+
+.formalign button{
+    background-color: #800000; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+/* academic.html   */
+
+h3{
+    text-align: center;
+    font-size: 28px;
+
+}
+.tablealign{
+    margin:50px;
+}
+.tablealign table{
+    border-collapse: collapse;
+    border:4px solid black;
+}
+
+.tablealign tr:nth-child(even) {background-color: #c2c2a3;}
+
+.tablealign th,td{
+padding:5px;
+text-align: center;
+}
+.tablebutton{
+    background-color: #c2c2a3;
+    border:2px solid #6b6b47;
+    padding:10px;
+    color:white;
+    text-align:left;
+    font-size:16px;
+    width:35%;
+    
+}
+
+.tablealign thead{
+    background-color: #6b6b47;
+}
+
+
+
+
+
+
